@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="navbar navbar-default" role="navigation">
+    <!-- Partie de la barre toujours affichée -->
+    <div class="navbar-header">
+        <!-- Bouton d'accès affiché à droite si la zone d'affichage est trop petite -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-target">
+            <span class="sr-only">Activer la navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-film" aria-hidden="true"></span>MyMovies</a>
+    </div>
+    <!-- Partie de la barre masquée si la surface d'affichage est insuffisante -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-target">
+        <ul class="nav navbar-nav">
+            <li><a href="#">Ajouter un film</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false"><span
+                    class="glyphicon glyphicon-user"></span>Bienvenue, alexandre <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Quitter</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<main class="container">
+    <div class="row">
+        <article class="col-lg-12">
+            <h1><a href="movie.html">007 Spectre</a></h1>
+
+            <p>A Mexico, pendant la fête des Morts, James Bond tente de mettre la main sur un certain Sciarra, que M
+                avant de mourir lui avait dit de surveiller. 007 le tue et se fait mettre à pied par le nouveau M, qui
+                voit d'un mauvais oeil l'arrivée de C, qui veut mettre fin au programme 00. Bond passe outre les ordres
+                et se rend aux obsèques de Sciarra. Il rencontre Lucia, sa veuve, qui lui donne des informations sur une
+                réunion secrète du Spectre, une organisation criminelle tentaculaire. A Rome, 007 est repéré par son
+                chef. Il fuit, retrouve la trace du Chiffre et lui promet de protéger Madeleine Swann, sa fille. Bond la
+                retrouve dans une clinique en Autriche...</p>
+        </article>
+        <article class="col-lg-12">
+            <h1><a href="movie.html">Les Nouvelles Aventures d'Aladin</a></h1>
+
+            <p>A la veille de Noël, Sam et son meilleur ami Khalid pensaient avoir trouvé le déguisement idéal pour
+                commettre quelques larcins aux Galeries Lafayette. Mais les enfants sont intelligents et les ont
+                rapidement démasqués malgré leur barbe de Père Noël. Pour les amadouer, le duo leur raconte leur version
+                de l'histoire d'Aladin. Dans la peau du célèbre personnage de conte des Mille et Une Nuits, Sam commence
+                alors un voyage au coeur de Bagdad, ville sous la coupe d'un tyrannique vizir à l'haleine fétide. Aladin
+                le jeune voleur, aidé de son génie, devra déjouer les plans diaboliques du vizir et sauver Khalid.
+                Entretemps, Aladin tombe sous le charme de la princesse Shallia promise à un autre...</p>
+        </article>
+        <article class="col-lg-12">
+            <h1><a href="movie.html">A vif !</a></h1>
+
+            <p>Adam Jones est un grand chef cuisinier réputé autant pour son talent que pour son arrogance. Grisé par le
+                succès et marqué par son passé où il abusait volontiers des drogues et de l'alcool, Adam a vu
+                l'établissement parisien dont il était chef perdre de sa notoriété à cause de ses excès. Mais après des
+                années d'absence et désormais sur la voie de la sobriété, il fait son retour à Londres où il rêve
+                d'ouvrir le meilleur des restaurants. Adam réunit autour de lui une équipe de choc, une brigade à
+                laquelle se joignent de jeunes commis prometteurs comme d'anciens partenaires chefs de parties.
+                Déterminé à élever son restaurant londonien au plus haut rang de la gastronomie, l'enfant terrible de la
+                cuisine, toujours hanté par son passé, entame un rude chemin vers la rédemption...</p>
+        </article>
+    </div>
+</main>
+<footer class="container">
+    <h4 class="text-center">Site réalisé avec bootstrap </h4>
+</footer>
+<script src="lib/jquery/jquery-2.1.4.min.js" type="application/javascript"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js" type="application/javascript"></script>
+</body>
+</html>
